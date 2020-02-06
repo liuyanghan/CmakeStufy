@@ -1,9 +1,10 @@
 #include <iostream>
 #include "../../Project3/include/a3.h"
-#include "../../third_party/include/a2.h"
+#include "../../Project2/include/a2.h"
+//#include "../../third_party/include/a2.h"
 void f1()
 {
-	std::cout<< "***f1***"<<std::endl;
+	std::cout<< __FUNCSIG__<<std::endl;
 }
 
 int main()
