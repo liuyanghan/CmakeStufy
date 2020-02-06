@@ -4,7 +4,7 @@
 //#include "../../third_party/include/a2.h"
 void f1()
 {
-	std::cout<< __FUNCSIG__<<std::endl;
+	std::cout<< "***f1***"<<std::endl;
 }
 
 int main()

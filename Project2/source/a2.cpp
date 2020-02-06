@@ -3,5 +3,5 @@
 
 void f2()
 {
-	std::cout<< __FUNCSIG__<<std::endl;
+	std::cout<< "***f2***"<<std::endl;
 }
