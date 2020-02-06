@@ -9,6 +9,6 @@ set(HEADERS
 
 SET(SOURCE_FILES ${SOURCES})
 
-link_directories("../third_party/lib")
+#link_directories("../third_party/lib")
 add_executable(exe ${HEADERS} ${SOURCE_FILES})
 target_link_libraries(exe PRO2 PRO3)
